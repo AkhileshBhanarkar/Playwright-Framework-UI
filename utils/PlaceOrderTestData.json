@@ -1,0 +1,18 @@
+[
+    {
+        "productName": "Sauce Labs Backpack",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "firstName": "Akhilesh",
+        "lastName": "Bhanarkar",
+        "postalCode": "411033"
+    },
+    {
+        "productName": "Sauce Labs Fleece Jacket",
+        "username": "visual_user",
+        "password": "secret_sauce",
+        "firstName": "Automation",
+        "lastName": "Test",
+        "postalCode": "411033"
+    }
+]
