@@ -7,6 +7,12 @@ const config = ({
     timeout: 5000
   },
   reporter: 'html',
+  use: {
+    headless: true,   // IMPORTANT FOR CI
+    launchOptions: {
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    }
+  },
 
   /* Configure projects for major browsers */
   projects: [
