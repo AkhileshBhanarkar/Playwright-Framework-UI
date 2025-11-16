@@ -28,6 +28,8 @@ jobs:
 
     - name: Run Playwright Tests (Headless For CI)
       run: npx playwright test --reporter=html --headed
+      env:
+          HEADLESS: true
 
     - name: Upload HTML Report
       uses: actions/upload-artifact@v4
