@@ -14,6 +14,7 @@ const config = ({
       name: 'chrome',
       use: {
         browserName: 'chromium',
+        headless: true,
         screenshot: 'on',
         video: 'on-first-retry',
         ignoreHTTPSErrors: true,
@@ -24,6 +25,7 @@ const config = ({
       name: 'firefox',
       use: {
         browserName: 'firefox',
+        headless: true,
         screenshot: 'on-failure',
         video: 'on-first-retry',
         ignoreHTTPSErrors: true,
